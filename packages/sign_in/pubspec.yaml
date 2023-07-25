@@ -31,18 +31,15 @@ dependencies:
       url: https://github.com/Noobie31/flutter_packages
       path: packages/layout_builder
     version: ^3.6.4
-  localization:
-    git:
-      url: https://github.com/Noobie31/flutter_packages
-      path: packages/localization
-    version: ^1.4.0
+  localization: ^2.1.0
   cloud_functions: ^4.0.5
   firebase_auth: ^4.2.5
   freezed_annotation: ^2.2.0
   flutter_libphonenumber: 1.1.0
   flutter_riverpod: ^2.1.1
   google_sign_in: ^5.4.4
-  intl: ^0.17.0
+  
+  
   pinput: ^2.2.12
   riverpod_annotation: ^1.0.6
   the_apple_sign_in: ^1.1.1
@@ -60,3 +57,6 @@ flutter:
   generate: true
   assets:
     - assets/images/
+
+dependency_overrides:
+  intl: any    

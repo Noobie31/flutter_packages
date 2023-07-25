@@ -23,11 +23,7 @@ dependencies:
       url: https://github.com/Noobie31/flutter_packages
       path: packages/layout_builder
     version: ^3.6.0-dev.1
-  localization:
-    git:
-      url: https://github.com/Noobie31/flutter_packages
-      path: packages/localization
-    version: ^1.4.0
+  localization: ^2.1.0
   purchases_flutter: ^4.4.1
   freezed_annotation: ^2.2.0
   flutter_riverpod: ^2.1.1
