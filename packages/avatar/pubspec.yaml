@@ -1,0 +1,30 @@
+name: avatar
+description: A widget handling an avatar
+version: 0.1.17
+homepage: https://twitter.com/hikeland
+publish_to: none
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  extensions:
+    git:
+      url: https://github.com/julienlebren/flutter_packages
+      path: packages/extensions
+    version: ^0.2.4
+  layout_builder:
+    git:
+      url: https://github.com/julienlebren/flutter_packages
+      path: packages/layout_builder
+    version: ^2.5.4
+  cached_network_image: ^3.2.1 
+   
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:

@@ -1,0 +1,6 @@
+include: package:lints/recommended.yaml
+
+linter:
+  rules:
+    avoid_single_cascade_in_expression_statements: false
+    non_constant_identifier_names: false
