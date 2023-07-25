@@ -1,11 +1,13 @@
+# dependency_overrides:
+#   localization: any # Replace 'any' with the version you want both packages to use
 name: layout_builder
-description: Layout building templates for apps built by https://github.com/Noobie31 
+description: Layout building templates for apps built by https://github.com/julienlebren 
 version: 3.7.2
 homepage: https://twitter.com/hikeland
 publish_to: none
 
 environment:
-  sdk: ">=2.18.0 <3.0.0"
+  sdk: ">=2.14.0 <3.0.0"
   flutter: ">=1.17.0"
 
 dependencies:
@@ -18,18 +20,22 @@ dependencies:
       url: https://github.com/Noobie31/flutter_packages
       path: packages/extensions
     version: ^0.7.0
-  localization: ^2.1.0
-  modal_bottom_sheet: ^3.0.0-pre
+  localization:
+    git:
+      url: https://github.com/Noobie31/flutter_packages
+      path: packages/localization
+  modal_bottom_sheet: ^2.0.2
   cached_network_image: ^3.2.2
   flutter_riverpod: ^2.1.1
   google_fonts: ^4.0.1
   internet_connection_checker: ^1.0.0+1
-  intl: ^0.17.0
+  intl: ^0.18.0
   freezed_annotation: ^2.2.0
   numberpicker: ^2.0.1
   page_transition: ^2.0.5
   riverpod_annotation: ^1.0.6
   visibility_detector: ^0.3.3
+  foundation: ^0.0.5
 
 dev_dependencies:
   flutter_test:

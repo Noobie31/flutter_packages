@@ -15,15 +15,15 @@ dependencies:
     git:
       url: https://github.com/Noobie31/flutter_packages
       path: packages/firebase_storage_service
-    version: ^0.3.0
+    version: ^0.6.0
   layout_builder:
     git:
       url: https://github.com/Noobie31/flutter_packages
       path: packages/layout_builder
-    version: ^2.5.4
-  firebase_storage: ^10.2.16
-  flutter_riverpod: ^1.0.3
-  freezed_annotation: ^1.1.0
+    version: ^3.7.2
+  firebase_storage: ^11.0.2
+  flutter_riverpod: ^2.1.1
+  freezed_annotation: ^2.2.0
   image_cropper: ^2.0.3
   image_picker: ^0.8.5+3
 
